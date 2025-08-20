@@ -7,5 +7,6 @@ drf_yasg # документация для front
 django-filter # фильтарция 
 redis # брокер задач 
 celery # таск менеджер 
-
+django-phonenumber-field
+phonenumbers
 
