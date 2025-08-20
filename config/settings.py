@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     'phonenumber_field',  
 
     #apps
-    'account'
+    'account',
+    'apartments'
 ]
 
 MIDDLEWARE = [
