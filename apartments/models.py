@@ -18,6 +18,7 @@ class Amenity(models.Model):
 class Apartment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='apartments', blank=True)
     title = models.CharField(max_length=80)
+    address = models.CharField(max_length=255)
     description = models.TextField()
     guests = models.IntegerField(default=1)
     bedroom = models.IntegerField(blank=True, null=True)
